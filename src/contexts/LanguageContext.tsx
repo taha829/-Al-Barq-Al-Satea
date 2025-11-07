@@ -13,7 +13,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState<Language>(() => {
     const saved = localStorage.getItem("language");
-    return (saved as Language) || "en";
+    // Default to Arabic when no saved language exists
+    return (saved as Language) || "ar";
   });
 
   const isRTL = language === "ar";

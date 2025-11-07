@@ -4,6 +4,7 @@ import { Menu, X, Languages } from "lucide-react";
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useTranslation } from "@/hooks/useTranslation";
+import { CartIcon } from "@/components/CartIcon";
 
 const Header = () => {
   const location = useLocation();
@@ -15,6 +16,7 @@ const Header = () => {
     { path: "/", label: t("nav.home") },
     { path: "/about", label: t("nav.about") },
     { path: "/services", label: t("nav.services") },
+    { path: "/products", label: t("products") },
     { path: "/order", label: t("nav.order") },
     { path: "/contact", label: t("nav.contact") },
   ];
@@ -49,6 +51,8 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-2">
+          <CartIcon />
+
           <Button
             variant="ghost"
             size="icon"
