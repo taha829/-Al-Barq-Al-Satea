@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react";
 import { useTranslation } from "@/hooks/useTranslation";
 
 const Footer = () => {
@@ -7,65 +7,87 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full border-t border-border bg-card">
+    <footer className="w-full border-t border-pink-200 bg-pink-50/80 backdrop-blur-sm">
       <div className="container py-12">
-        <div className="grid gap-8 md:grid-cols-3">
-          {/* Company Info */}
+        <div className="grid gap-10 md:grid-cols-3">
+          {/* ✅ شعار ومعلومات عامة */}
           <div>
-            <div className="mb-4 flex items-center space-x-2 rtl:space-x-reverse">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <span className="text-xl font-bold text-primary-foreground">⚡</span>
-              </div>
-              <span className="font-bold text-foreground">{t("home.hero.title").split(" ")[0] + " " + t("home.hero.title").split(" ")[1] + " " + t("home.hero.title").split(" ")[2]}</span>
+            <div className="mb-4 flex items-center gap-2">
+              <img
+                src="/images/logo.png"
+                alt="Bele Italia"
+                className="h-10 w-10 rounded-full border border-pink-300 object-cover"
+              />
+              <span className="font-extrabold text-pink-700 text-lg tracking-wide">
+                Bele Italia
+              </span>
             </div>
-            <p className="text-sm text-muted-foreground">{t("footer.description")}</p>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              Bele Italia — متجر الجمال الإيطالي الفاخر. اكتشفي مجموعتنا المميزة من المكياج والعناية بالبشرة والعطور التي تبرز أناقتكِ كل يوم.
+            </p>
           </div>
 
-          {/* Quick Links */}
+          {/* ✅ روابط سريعة */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-foreground">{t("footer.quickLinks")}</h3>
+            <h3 className="mb-4 text-lg font-semibold text-pink-700">
+              {t("footer.quickLinks") || "روابط سريعة"}
+            </h3>
             <nav className="flex flex-col space-y-2">
-              <Link to="/" className="text-sm text-muted-foreground hover:text-primary">
+              <Link to="/" className="text-sm text-gray-600 hover:text-pink-600">
                 {t("nav.home")}
               </Link>
-              <Link to="/about" className="text-sm text-muted-foreground hover:text-primary">
+              <Link to="/about" className="text-sm text-gray-600 hover:text-pink-600">
                 {t("nav.about")}
               </Link>
-              <Link to="/services" className="text-sm text-muted-foreground hover:text-primary">
-                {t("nav.services")}
+              <Link to="/products" className="text-sm text-gray-600 hover:text-pink-600">
+                {t("products")}
               </Link>
-              <Link to="/order" className="text-sm text-muted-foreground hover:text-primary">
+              <Link to="/order" className="text-sm text-gray-600 hover:text-pink-600">
                 {t("nav.order")}
               </Link>
-              <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary">
+              <Link to="/contact" className="text-sm text-gray-600 hover:text-pink-600">
                 {t("nav.contact")}
               </Link>
             </nav>
           </div>
 
-          {/* Contact Info */}
+          {/* ✅ معلومات التواصل */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-foreground">{t("footer.contact")}</h3>
-            <div className="flex flex-col space-y-3">
-              <div className="flex items-start space-x-2 text-sm rtl:space-x-reverse">
-                <MapPin className="mt-1 h-4 w-4 flex-shrink-0 text-primary" />
-                <span className="text-muted-foreground">{t("home.welcome.location")}</span>
+            <h3 className="mb-4 text-lg font-semibold text-pink-700">
+              {t("footer.contact") || "تواصلي معنا"}
+            </h3>
+            <div className="flex flex-col space-y-3 text-sm text-gray-600">
+              <div className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 flex-shrink-0 text-pink-600" />
+                <span>عمّان، الأردن – شارع حي عدن</span>
               </div>
-              <div className="flex items-center space-x-2 text-sm rtl:space-x-reverse">
-                <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
-                <span className="text-muted-foreground">0799 25 96 82</span>
+              <div className="flex items-center gap-2">
+                <Phone className="h-4 w-4 flex-shrink-0 text-pink-600" />
+                <span>+962 782633162</span>
               </div>
-              <div className="flex items-center space-x-2 text-sm rtl:space-x-reverse">
-                <Mail className="h-4 w-4 flex-shrink-0 text-primary" />
-                <span className="text-muted-foreground">{t("contact.info.salesManagerName")}</span>
+              <div className="flex items-center gap-2">
+                <Mail className="h-4 w-4 flex-shrink-0 text-pink-600" />
+                <span>info@beleitalia.com</span>
+              </div>
+
+              {/* ✅ روابط السوشيال ميديا */}
+              <div className="flex items-center gap-4 mt-3">
+                <a href="https://www.instagram.com" target="_blank" className="text-pink-600 hover:text-pink-700">
+                  <Instagram className="h-5 w-5" />
+                </a>
+                <a href="https://www.facebook.com" target="_blank" className="text-pink-600 hover:text-pink-700">
+                  <Facebook className="h-5 w-5" />
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>{t("footer.copyright").replace("{year}", currentYear.toString())}</p>
-          <p className="mt-2 text-xs opacity-75">{t("footer.developedBy")}</p>
+        {/* ✅ الحقوق */}
+        <div className="mt-10 border-t border-pink-200 pt-6 text-center text-sm text-gray-500">
+          <p>© {currentYear} Bele Italia — جميع الحقوق محفوظة</p>
+          <p className="mt-2 text-xs opacity-70">
+تم برمجة الموقع بواسطة طه الخطيب          </p>
         </div>
       </div>
     </footer>

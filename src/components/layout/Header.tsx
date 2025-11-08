@@ -24,25 +24,28 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-pink-200 bg-white/80 backdrop-blur-lg shadow-sm">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-primary">
-            <span className="text-xl font-bold text-primary-foreground">⚡</span>
-          </div>
-          <span className="hidden font-bold text-foreground sm:inline-block">
-            Al Barq Al Satea
+        {/* ✅ الشعار */}
+        <Link to="/" className="flex items-center gap-2">
+          <img
+            src="/images/logo.png"
+            alt="Bele Italia Logo"
+            className="h-10 w-10 rounded-full border border-pink-300 object-cover"
+          />
+          <span className="hidden font-extrabold text-xl text-pink-600 sm:inline-block tracking-wide">
+            Bele Italia
           </span>
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* ✅ القائمة (سطح المكتب) */}
         <nav className="hidden md:flex md:gap-6">
           {navItems.map((item) => (
             <Link
               key={item.path}
               to={item.path}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive(item.path) ? "text-primary" : "text-muted-foreground"
+              className={`text-sm font-medium transition-colors hover:text-pink-600 ${
+                isActive(item.path) ? "text-pink-600" : "text-gray-600"
               }`}
             >
               {item.label}
@@ -50,6 +53,7 @@ const Header = () => {
           ))}
         </nav>
 
+        {/* ✅ أدوات الرأس */}
         <div className="flex items-center gap-2">
           <CartIcon />
 
@@ -58,19 +62,23 @@ const Header = () => {
             size="icon"
             onClick={toggleLanguage}
             title={language === "en" ? "العربية" : "English"}
+            className="text-pink-600 hover:text-pink-700"
           >
             <Languages className="h-5 w-5" />
           </Button>
 
-          <Button asChild className="hidden md:inline-flex">
+          <Button
+            asChild
+            className="hidden md:inline-flex bg-pink-600 hover:bg-pink-700 text-white font-semibold"
+          >
             <Link to="/order">{t("nav.bookOrder")}</Link>
           </Button>
 
-          {/* Mobile Menu Button */}
+          {/* ✅ زر القائمة الجانبية للموبايل */}
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-pink-600"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -78,17 +86,17 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* ✅ القائمة الجانبية (الموبايل) */}
       {mobileMenuOpen && (
-        <div className="border-t border-border bg-background md:hidden">
+        <div className="border-t border-pink-200 bg-white md:hidden">
           <nav className="container flex flex-col space-y-4 py-4">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.path) ? "text-primary" : "text-muted-foreground"
+                className={`text-sm font-medium transition-colors hover:text-pink-600 ${
+                  isActive(item.path) ? "text-pink-600" : "text-gray-600"
                 }`}
               >
                 {item.label}

@@ -2,192 +2,219 @@ export const en = {
   nav: {
     home: "Home",
     about: "About Us",
-    services: "Services",
-    order: "Order Now",
+    services: "Our Products",
+    order: "Shop Now",
     contact: "Contact",
-    bookOrder: "Book Order",
+    bookOrder: "Order Now",
   },
   home: {
     hero: {
-      title: "Al Barq Al Satea Plastic Establishment",
-      subtitle: "Manufacturers of high-quality printed and unprinted plastic bags and elegant yellow table covers — crafted with precision to meet your needs.",
-      cta: "Book Your Order Now",
+      title: "Bele Italia Cosmetics",
+      subtitle:
+        "Luxury Italian beauty products — designed to inspire confidence, elegance, and timeless beauty.",
+      cta: "Shop Now",
     },
     welcome: {
-      title: "Welcome to Al Barq Al Satea",
-      location: "Amman – Marka Al Shamaliyah, Jordan",
-      description1: "A leading plastic manufacturer based in",
-      description2: "We specialize in producing printed and unprinted plastic bags, as well as yellow plastic table covers for restaurants, hotels, and commercial use.",
-      description3: "Each product is made with care, quality materials, and attention to detail — ensuring durability, flexibility, and satisfaction for every customer.",
+      title: "Welcome to Bele Italia",
+      location: "Made with passion in Italy, loved worldwide",
+      description1:
+        "Bele Italia brings you premium Italian cosmetics crafted with precision, care, and artistry.",
+      description2:
+        "From bold lipsticks to volumizing mascaras and elegant eye makeup, each product embodies our dedication to quality and beauty.",
+      description3:
+        "Our mission is to empower every woman to feel confident and radiant — every single day.",
     },
     features: {
-      title: "Why Choose Us",
-      printed: "Printed & Unprinted Bags",
-      printedDesc: "High-quality plastic bags with custom printing or plain designs",
-      tableCovers: "Yellow Table Covers",
-      tableCoversDesc: "Elegant Sufrah covers for restaurants, hotels, and events",
-      customSizes: "Custom Sizes",
-      customSizesDesc: "All products made to your exact specifications",
-      bundles: "100 Bags per Bundle",
-      bundlesDesc: "Convenient packaging for easy storage and distribution",
-      delivery: "Fast Delivery",
-      deliveryDesc: "Reliable and timely shipping across Jordan",
-      service: "Professional Service",
-      serviceDesc: "Expert guidance and customer support",
+      title: "Why Choose Bele Italia",
+      printed: "Italian Quality",
+      printedDesc: "Formulated with premium ingredients made in Italy",
+      tableCovers: "Elegant Design",
+      tableCoversDesc:
+        "Sophisticated packaging and colors that reflect true Italian style",
+      customSizes: "Dermatologically Tested",
+      customSizesDesc: "Safe, gentle, and suitable for all skin types",
+      bundles: "Cruelty-Free",
+      bundlesDesc: "Beauty with compassion — no animal testing",
+      delivery: "Worldwide Delivery",
+      deliveryDesc: "Fast and secure international shipping",
+      service: "Luxury Experience",
+      serviceDesc: "Exceptional customer care from start to finish",
     },
     quality: {
-      title: "Quality You Can Trust",
-      description1: "Our products are manufactured using premium materials and modern equipment, ensuring consistency and reliability in every order.",
-      description2: "From restaurants to retail stores, our plastic products serve businesses across Jordan with pride and professionalism.",
-      cta: "Explore Our Services",
+      title: "Beauty You Can Trust",
+      description1:
+        "Our cosmetics are developed using advanced Italian formulations and cutting-edge technology, ensuring stunning results with every use.",
+      description2:
+        "Trusted by makeup artists and beauty lovers around the world, Bele Italia delivers the essence of timeless beauty.",
+      cta: "Explore Our Collection",
     },
     cta: {
-      title: "Ready to Place Your Order?",
-      subtitle: "Contact us today and experience quality service with fast delivery.",
-      bookOrder: "Book Order",
+      title: "Ready to Elevate Your Beauty?",
+      subtitle: "Shop our collection and experience Italian elegance.",
+      bookOrder: "Shop Now",
       contact: "Contact Us",
     },
   },
   about: {
     hero: {
       title: "Who We Are",
-      subtitle: "Experience and quality you can rely on.",
+      subtitle: "Italian elegance meets modern beauty.",
     },
     content: {
-      intro1: "is one of Jordan's trusted manufacturers of plastic packaging and household products.",
-      intro2: "We proudly serve restaurants, hotels, and stores across the country, providing products that combine strength, flexibility, and professional design.",
-      production: "Our Production Includes:",
-      printed: "Printed Plastic Bags",
-      printedDesc: "— with your custom logo or design.",
-      unprinted: "Unprinted Plastic Bags",
-      unprintedDesc: "— durable and practical for everyday use.",
-      tableCovers: "Yellow Plastic Table Covers (Sufrah)",
-      tableCoversDesc: "— available in various patterns and sizes.",
-      bundleInfo: "Each bundle contains 100 bags, and all sizes and thicknesses are made according to customer preference.",
+      intro1:
+        "Bele Italia is a premium cosmetics brand born in Italy and inspired by the artistry of timeless beauty.",
+      intro2:
+        "We believe in empowering women through high-quality, luxurious products that enhance natural beauty and confidence.",
+      production: "Our Product Line Includes:",
+      printed: "Mascara",
+      printedDesc: "— for bold, voluminous lashes that captivate.",
+      unprinted: "Lipstick",
+      unprintedDesc: "— rich color, silky texture, and long-lasting wear.",
+      tableCovers: "Eye Makeup",
+      tableCoversDesc:
+        "— shadows, liners, and palettes to create every look.",
+      bundleInfo:
+        "All our products are made with care, tested for safety, and infused with Italian craftsmanship.",
     },
     mission: {
       title: "Our Mission",
-      description: "To deliver superior plastic products with excellent service and timely delivery.",
+      description:
+        "To create elegant, high-quality cosmetics that celebrate individuality and empower confidence.",
     },
     values: {
       title: "Our Values",
-      quality: "Quality and Precision",
-      qualityDesc: "Every product meets the highest standards",
-      innovation: "Innovation and Sustainability",
-      innovationDesc: "Forward-thinking manufacturing practices",
+      quality: "Quality & Craftsmanship",
+      qualityDesc: "Meticulous attention to every detail",
+      innovation: "Innovation & Artistry",
+      innovationDesc: "Blending science with beauty",
       trust: "Customer Trust",
       trustDesc: "Building lasting relationships with our clients",
-      delivery: "On-Time Delivery",
-      deliveryDesc: "Reliable and professional service",
+      delivery: "Sustainability",
+      deliveryDesc: "Ethical sourcing and eco-friendly packaging",
     },
   },
   services: {
     hero: {
-      title: "Our Services",
-      subtitle: "Complete plastic manufacturing and furnishing solutions.",
+      title: "Our Products",
+      subtitle:
+        "Explore Bele Italia’s exclusive range of premium beauty essentials.",
     },
     items: {
       printed: {
-        title: "Printed Plastic Bags",
-        description: "Customized with your logo, brand name, and preferred size or thickness. Perfect for businesses looking to enhance their brand visibility.",
+        title: "Mascara",
+        description:
+          "Achieve dramatic, voluminous lashes with our long-lasting Italian mascara.",
       },
       unprinted: {
-        title: "Unprinted Plastic Bags",
-        description: "Clean, economical, and available in a variety of sizes and colors. Ideal for everyday commercial and household use.",
+        title: "Lipstick",
+        description:
+          "From classic reds to modern nudes, our lipsticks deliver rich color and smooth texture.",
       },
       tableCovers: {
-        title: "Yellow Table Covers (Sufrah)",
-        description: "Elegant and durable plastic table covers suitable for restaurants, events, and households. Available in multiple patterns.",
+        title: "Eye Makeup",
+        description:
+          "Elegant eyeshadows, liners, and palettes designed to define and enhance your look.",
       },
       custom: {
-        title: "Custom Cutting & Packaging",
-        description: "All products are cut, sized, and packed according to your specific requirements. We accommodate unique needs and preferences.",
+        title: "Skin Care Essentials",
+        description:
+          "Hydrating and rejuvenating products that nourish your skin and complement your beauty routine.",
       },
       bulk: {
-        title: "Bulk Packaging",
-        description: "Each bundle includes 100 high-quality bags, neatly packed and ready for use. Perfect for wholesale and commercial orders.",
+        title: "Gift Sets",
+        description:
+          "Beautifully packaged collections — perfect for gifting or indulging yourself.",
       },
     },
     commitment: {
       title: "Our Commitment",
-      description1: "We guarantee strong, flexible, and environmentally friendly products manufactured with care and precision.",
-      description2: "Our team ensures every order meets the highest standards in quality and delivery.",
+      description1:
+        "We guarantee luxurious, safe, and high-performing cosmetics made with love in Italy.",
+      description2:
+        "Every product reflects our devotion to quality, sustainability, and customer satisfaction.",
     },
   },
   order: {
     hero: {
-      title: "Place Your Order",
-      subtitle: "Fast, simple, and professional — your products are just a few clicks away.",
+      title: "Shop Your Favorites",
+      subtitle:
+        "Luxury beauty is just a few clicks away — shop our Italian collection today.",
     },
     form: {
       title: "Order Form",
       productType: "Product Type",
       productTypePlaceholder: "Select product type",
-      printedBags: "Printed Plastic Bags",
-      unprintedBags: "Unprinted Plastic Bags",
-      tableCovers: "Yellow Table Covers (Sufrah)",
-      quantity: "Quantity (Number of Bundles - 100 bags per bundle)",
-      quantityPlaceholder: "e.g., 10",
-      size: "Size & Thickness",
-      sizePlaceholder: "e.g., 30x40 cm, medium thickness",
+      printedBags: "Mascara",
+      unprintedBags: "Lipstick",
+      tableCovers: "Eye Makeup",
+      quantity: "Quantity",
+      quantityPlaceholder: "e.g., 2 pieces",
+      size: "Shade or Variant",
+      sizePlaceholder: "e.g., Rosso Classico, Noir Intenso",
       name: "Full Name",
       namePlaceholder: "Your name",
       phone: "Phone Number",
-      phonePlaceholder: "0799259682",
+      phonePlaceholder: "e.g., +39 333 123 4567",
       whatsapp: "WhatsApp Number",
       whatsappPlaceholder: "Same as phone or different",
-      location: "Location/Address",
-      locationPlaceholder: "Enter your location or delivery address",
-      notes: "Additional Notes or Requirements",
-      notesPlaceholder: "Logo design, special requirements, delivery preferences, etc.",
-      submit: "Submit Order",
+      location: "Address",
+      locationPlaceholder: "Enter your delivery address",
+      notes: "Additional Notes or Requests",
+      notesPlaceholder: "Gift wrapping, special message, etc.",
+      submit: "Place Order",
       required: "*",
     },
     process: {
       title: "Order Process",
-      description: "After submitting your order, our sales team will contact you to confirm details, share pricing, and schedule delivery. You will receive real-time updates via WhatsApp for convenience and confirmation.",
+      description:
+        "Once your order is placed, our team will contact you for confirmation and delivery details. You’ll receive real-time updates via WhatsApp.",
     },
     toast: {
-      title: "Order Submitted!",
-      description: "Our team will contact you shortly to confirm details.",
+      title: "Order Placed!",
+      description: "Our team will reach out to confirm your details shortly.",
     },
-    whatsappMessage: "New Order Request:\nProduct: {product}\nQuantity: {quantity} bundles\nSize: {size}\nName: {name}\nPhone: {phone}\nLocation: {location}\nNotes: {notes}",
+    whatsappMessage:
+      "🛍️ New Order Request:\nProduct: {product}\nQuantity: {quantity}\nShade: {size}\nName: {name}\nPhone: {phone}\nAddress: {location}\nNotes: {notes}",
   },
   contact: {
     hero: {
-      title: "Let's Connect!",
-      subtitle: "We're here to assist you with all your inquiries and orders.",
+      title: "Get in Touch",
+      subtitle: "We’re here to help with your beauty needs and orders.",
     },
     info: {
       title: "Contact Information",
       location: "Location",
-      locationValue: "Al Barq Al Satea Plastic Establishment\nAmman – Marka Al Shamaliyah, Jordan",
+      locationValue: "Bele Italia Cosmetics\nMilan, Italy",
       phone: "Phone",
       whatsapp: "WhatsApp",
-      salesManager: "Sales Manager",
-      salesManagerName: "Saleh Rajab",
+      salesManager: "Customer Service",
+      salesManagerName: "Bele Italia Support Team",
     },
     actions: {
       whatsappTitle: "Chat on WhatsApp",
-      whatsappDesc: "Get instant responses to your inquiries",
+      whatsappDesc: "Quick assistance from our beauty consultants",
       whatsappBtn: "Open WhatsApp",
-      callTitle: "Call Us Directly",
-      callDesc: "Speak with our sales team",
+      callTitle: "Call Us",
+      callDesc: "Speak directly with our team",
       callBtn: "Call Now",
     },
-    whatsappMessage: "Hello, I'd like to inquire about your products.",
+    whatsappMessage:
+      "Hello, I'd like to learn more about Bele Italia products.",
   },
   footer: {
-    description: "High-quality plastic bags and table covers manufactured with precision in Jordan.",
+    description:
+      "Luxury Italian cosmetics crafted with precision, passion, and beauty.",
     quickLinks: "Quick Links",
     contact: "Contact",
-    copyright: "© {year} Al Barq Al Satea Plastic Establishment. All rights reserved.",
+    copyright:
+      "© {year} Bele Italia Cosmetics. All rights reserved.",
     developedBy: "Developed by Engineer Taha Al-Khatib",
   },
 
   // Products & Shopping
   products: "Products",
-  productsDescription: "Discover our wide range of high-quality plastic bags and table covers",
+  productsDescription:
+    "Discover our exclusive range of premium Italian cosmetics",
   searchProducts: "Search products...",
   selectCategory: "Select Category",
   allCategories: "All Categories",
@@ -195,14 +222,14 @@ export const en = {
   clearFilters: "Clear Filters",
   showingProducts: "Showing {count} of {total} products",
   addToCart: "Add to Cart",
-  currency: "JOD",
-  
+  currency: "EUR",
+
   // Cart
   shoppingCart: "Shopping Cart",
   cartItemsCount: "{count} items in cart",
   emptyCart: "Cart is Empty",
-  emptyCartDescription: "You haven't added any products to your cart yet",
-  emptyCartCheckout: "You need to add products to cart before checkout",
+  emptyCartDescription: "You haven’t added any products yet",
+  emptyCartCheckout: "Add products to cart before checkout",
   continueShopping: "Continue Shopping",
   clearCart: "Clear Cart",
   orderSummary: "Order Summary",
@@ -210,12 +237,12 @@ export const en = {
   price: "Price",
   total: "Total",
   proceedToCheckout: "Proceed to Checkout",
-  
+
   // Checkout
   checkout: "Checkout",
-  completeOrder: "Complete your information to place the order",
+  completeOrder: "Complete your details to place the order",
   customerInformation: "Customer Information",
-  customerName: "Customer Name",
+  customerName: "Full Name",
   enterName: "Enter your full name",
   phone: "Phone Number",
   enterPhone: "Enter your phone number",
@@ -223,27 +250,29 @@ export const en = {
   enterAddress: "Enter your detailed address",
   notes: "Notes",
   optional: "Optional",
-  enterNotes: "Any additional notes",
+  enterNotes: "Gift message or special instructions",
   whatsappOrder: "WhatsApp Order",
-  whatsappOrderDescription: "Your order will be sent via WhatsApp to confirm details",
+  whatsappOrderDescription:
+    "Your order will be confirmed via WhatsApp for convenience",
   sendOrderWhatsApp: "Send Order via WhatsApp",
   submittingOrder: "Submitting order...",
   fillRequiredFields: "Please fill all required fields",
   orderError: "Error submitting order, please try again",
-  
+
   // Order Success
   orderSuccess: "Order Sent Successfully!",
-  orderSuccessDescription: "Thank you! Your order has been sent successfully via WhatsApp",
+  orderSuccessDescription:
+    "Thank you for shopping with Bele Italia. Your order has been sent via WhatsApp.",
   nextSteps: "Next Steps",
   whatsappSent: "WhatsApp opened with your order details",
   confirmOrder: "We will contact you to confirm the order",
-  deliveryInfo: "You will be informed about delivery details",
+  deliveryInfo: "You will receive delivery details soon",
   backToHome: "Back to Home",
   needHelp: "Need help?",
   contactUs: "Contact Us",
-  
+
   // WhatsApp Message
-  newOrder: "🛍️ New Order from Al Barq Al Satea Website",
+  newOrder: "💄 New Order from Bele Italia Website",
   orderDetails: "Order Details",
-  thankYou: "Thank you for choosing Al Barq Al Satea! 🙏",
+  thankYou: "Thank you for choosing Bele Italia! 🌸",
 };

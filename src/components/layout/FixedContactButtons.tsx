@@ -4,7 +4,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 
 const FixedContactButtons = () => {
   const { t } = useTranslation();
-  const phoneNumber = "0799259682";
+  const phoneNumber = "0782633162";
   const whatsappMessage = t("contact.whatsappMessage");
 
   return (

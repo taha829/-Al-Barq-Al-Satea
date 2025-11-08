@@ -7,7 +7,7 @@ const qualityImage = "/images/quality-control.jpg";
 
 const Contact = () => {
   const { t } = useTranslation();
-  const phoneNumber = "0799259682";
+  const phoneNumber = "0782633162";
 
   return (
     <div className="flex min-h-screen flex-col">
